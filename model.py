@@ -357,8 +357,3 @@ def precision_at_k(test_df, K=10, threshold=3.0):
         return 0.0
 
     return sum(precisions) / len(precisions)
-
-
-
-
-
